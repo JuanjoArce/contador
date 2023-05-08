@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    margin: 50px;
+}
+
+.container {
+    margin-top: 10px;
+	text-align: center;
+    background-color: #007bff;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.screen {
+    background-color: #007bff;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+h1 {
+	font-size: 5em;
+	margin: 0;
+    padding: 50px;
+    background-color: aliceblue;
+}
+
+button {
+	font-size: 2em;
+	margin: 20px;
+	padding: 10px 20px;
+	border: none;
+	background-color: #0901f9;
+	color: white;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
